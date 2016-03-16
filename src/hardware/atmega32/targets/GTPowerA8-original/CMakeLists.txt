@@ -1,0 +1,11 @@
+
+set(SOURCE_FILES
+    defaultCalibration.cpp
+    HardwareConfig.h
+)
+
+CHEALI_HARDWARE(GTPowerA8)
+CHEALI_CPU(atmega32)
+CHEALI_GENERIC_CHARGER(150W)
+
+CHEALI_GENERATE_AVR_EXEC()
